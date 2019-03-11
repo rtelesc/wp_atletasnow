@@ -86,7 +86,7 @@
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-     <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/selo-yahoo.png">
+        <a href="https://www.atletasnow.com/atletasnow-incluida-na-lista-dos-finalistas-do-yahoo-sports-technology-awards-2019-o-oscar-das-tecnologias-do-esporte/">  <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/selo-yahoo.png"> </a>
     </form>
   </div>
 </nav>
