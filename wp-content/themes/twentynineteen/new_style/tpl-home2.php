@@ -894,8 +894,8 @@
 
             <!-- <div class="col-md-12 section-4 text-center"> -->
 
-                <div class="row">
-                    <div class="col-md-12 p-2"><h1 class="first">Conteúdos Exclusivos AtletasNow</h1></div>
+                <div class="row" style="font-family: Axiforma;">
+                    <div class="col-md-12 p-2"><h1 class="first" style="font-family: Axiforma;">Conteúdos Exclusivos AtletasNow</h1></div>
 
 
                     <!-- <div class="row"> -->
@@ -1007,7 +1007,7 @@
           <!-- Grid column -->
 
           <!-- Grid column -->
-            <div class="col-md-4 footer_right-column text-left">
+            <div style="font-family: Axiforma;" class="col-md-4 footer_right-column text-left">
 
             <!-- Links -->
                 <h3>Contatos</h3>
@@ -1076,6 +1076,9 @@
       <!-- <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a> -->
     </div>
     <!-- Copyright -->
+
+
+
 
   </footer>
   <!-- Footer -->
