@@ -1,7 +1,7 @@
 
 <?php
 /*
-  Template Name: Confederacoes
+  Template Name: Modalidade Futebol
 */
 
 ?>
@@ -19,8 +19,8 @@
 
 
     <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style.css">
-    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style_404.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style_erro_page.css">
+    <title>Modalidade Futebol</title>
 
     <style type="text/css">
          header {
@@ -30,7 +30,7 @@
       
           background-size:cover;
           position: relative;
-          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-federacoes.png");
+          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-clubes.png");
         }
     </style>
     <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
@@ -43,7 +43,7 @@
     <header>
 
               <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#"><img src="img/logo-cor-2.png"/></a>
+              <a class="navbar-brand" href="#"><img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"/></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -113,7 +113,7 @@
   line-height: normal;
   letter-spacing: -0.3px;
   text-align: center;
-  color: #ffffff;">Confederações e Federações:
+  color: #ffffff;">Clubes e Universidades:
 </h1>
 
 
@@ -138,7 +138,7 @@ você só encontra na AtletasNow.</h5>
 
 
                 <div class="col-md-12 text-center mt-5">
-                  <button class="btn" style="font-family: Axiforma-SemiBold
+                  <button class="btn" style="font-family: Axiforma;
   font-size: 16px;
   font-weight: 600;
   font-style: normal;
@@ -257,7 +257,7 @@ descontos esclusivos</h4>
 
          <div class="col-md-4">
             
-            <img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"  class="">
+            <img src="img/logo-cor-2.png"  class="">
 
          </div>
 
@@ -387,8 +387,8 @@ descontos esclusivos</h4>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>

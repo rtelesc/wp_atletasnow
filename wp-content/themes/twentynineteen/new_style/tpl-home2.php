@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/css/style.css">
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style.css">
+    <title>Atletasnow  - Pagina Inicial</title>
     <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
 
 
@@ -35,7 +35,7 @@
           max-height: 30%;
           background-size:cover;
           position: relative;
-          background-image: url("/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/img-destaque-home.jpg");
+          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-home.jpg");
         }
 
       
@@ -51,7 +51,7 @@
 <header>
 
   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#"><img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/logo-cor-2.png"/></a>
+  <a class="navbar-brand" href="https://www.atletasnow.com/"><img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -76,17 +76,17 @@
         </div> -->
       </li>
       <li class="nav-item m-3">
-        <a class="nav-link2" href="#">Sobre o AtletasNow</a>
+        <a class="nav-link2" href="https://www.atletasnow.com/">Sobre a AtletasNow</a>
       </li>
       <li class="nav-item m-3">
-        <a class="nav-link2" href="#">Blog</a>
+        <a class="nav-link2" href="https://www.atletasnow.com/blog/">Blog</a>
       </li>
       <li class="nav-item mt-2 ml-3 mr-3">
-        <a class="nav-link2" href="#"><button class="btn btn-atleta">Sou Atleta Profissional</button></a>
+        <a class="nav-link2" href="https://www.atletasnow.com/app/cadastro/"><button class="btn btn-atleta">Sou Atleta Profissional</button></a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-        <a href="https://www.atletasnow.com/atletasnow-incluida-na-lista-dos-finalistas-do-yahoo-sports-technology-awards-2019-o-oscar-das-tecnologias-do-esporte/">  <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/selo-yahoo.png"> </a>
+        <a href="https://www.atletasnow.com/atletasnow-incluida-na-lista-dos-finalistas-do-yahoo-sports-technology-awards-2019-o-oscar-das-tecnologias-do-esporte/">  <img src="/wp-content/themes/whistle/new_style/img/selo-yahoo.png"> </a>
     </form>
   </div>
 </nav>
@@ -116,19 +116,21 @@
 
 
           <div class="col-md-6 mt-5 mx-auto ">
+            <form method="get" action="https://www.atletasnow.com/atleta-nao-encontrado/">
             <div class="input-group mb-4">
-              <input type="text" class="form-control mt-5 input_search" placeholder="Digite o nome do atleta ou modalidade">
+              <input type="text" class="form-control mt-5 input_search" name="pesquisa" placeholder="Digite o nome do atleta ou modalidade">
               <div class="input-group-append">
-                <button style="" class="btn btn-largee mt-5" type="button">
+                <button style="" class="btn btn-largee mt-5" type="submit">
                   <i style="color:#ff5f00;" class="fa fa-search"></i>
                 </button>
               </div>
+            </form>
             </div>
 
 
             <!-- <div class=""> -->
             <!-- <div class="col-md-6 mt-5"> -->
-            <a href="">Futebol</a> <a href="">Basquete</a><a href="">Volei</a><a href="">Natacao</a><a href="">Tenis</a><a href="">Golfe</a> <a href="">Mais esportes</a>
+            <a href="https://www.atletasnow.com/futebol">Futebol</a> <a href="https://www.atletasnow.com/basquete">Basquete</a><a href="https://www.atletasnow.com/volei">Volei</a><a href="https://www.atletasnow.com/natacao">Natacao</a><a href="https://www.atletasnow.com/tenis">Tenis</a><a href="https://www.atletasnow.com/golfe">Golfe</a> <a href="">Mais esportes</a>
 
             <!-- </div> -->
           </div>
@@ -165,7 +167,7 @@
 
               <div class=" destaques destaques_first" style="float:left; width: 18%; position:absolute; z-index: 1; right: 30
         ;   height: 300px;">
-                <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/atletas/gege.jpg">
+                <img src="/wp-content/themes/whistle/new_style/atletas/gege.jpg">
 
                 <span style=" position: absolute;
                               top: 7em;
@@ -276,7 +278,7 @@
               
                <div class="  destaques " style=" width: 18%; position:absolute; z-index: 1; /* put .green-box above .dashed-box */ ; right: 48em;  height: 300px;">
                  
-                <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/atletas/marcos_rocha.jpg">
+                <img src="/wp-content/themes/whistle/new_style/atletas/marcos_rocha.jpg">
 
 
                 <span style=" position: absolute;
@@ -384,7 +386,7 @@
 
                <div class=" destaques" style="width: 20%; position:absolute; z-index: 1; /* put .green-box above .dashed-box */ ; right: 32em;  height: 300px;">
                  
-                <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/atletas/dani.jpg">
+                <img src="/wp-content/themes/whistle/new_style/atletas/dani.jpg">
 
                 <span style=" position: absolute;
                               top: 7em;
@@ -492,7 +494,7 @@
 
 
                 <div class=" destaques" style="width: 20%;  position:absolute; z-index: 1; /* put .green-box above .dashed-box */ ; right: 16em;  height: 300px;">
-                <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/atletas/brandonn.jpg">
+                <img src="/wp-content/themes/whistle/new_style/atletas/brandonn.jpg">
                     
                 <span style=" position: absolute;
                               top: 7em;
@@ -568,7 +570,7 @@
 
 
                 <div class="  destaques" style="width: 20%;  position:absolute; z-index: 1; /* put .green-box above .dashed-box */ ; right: 0em;  height: 300px;">
-                <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/atletas/thiago.jpg">
+                <img src="/wp-content/themes/whistle/new_style/atletas/thiago.jpg">
                     
                 <span style=" position: absolute;
                               top: 7em;
@@ -692,7 +694,7 @@
                   <h1 class="">Atleta, aumente suas chances de vencer.</h1>
                   <p>Ganhe visibilidade, oportunidades de patrocínio, acesso à profissionais do esporte,
     conteúdos e descontos exclusivos.</p>
-                  <button class="btn m-3">Cadastre-se no AtletasNow</button>
+                <a href="https://www.atletasnow.com/app/cadastro/">  <button   class="btn m-3">Cadastre-se no AtletasNow</button></a>
               </div>
 
             </div>
@@ -720,7 +722,7 @@
                           <h1>Atletas</br>
                           Profissionais</h1>
 
-                          <button class="p-2">Sou atleta profissional</button>
+                        <a  href="https://www.atletasnow.com/profissionais-do-esporte/ ">  <button class="p-2">Sou atleta profissional</button> </a>
 
                         </div>
 
@@ -758,7 +760,8 @@
                           <h1>Clubes e </br>
                           Universidades</h1>
 
-                          <button class="p-2">Represento um Clube</button>
+ <a  href="https://www.atletasnow.com/clubes/">  <button class="p-2">Represento um Clube</button> </a>
+                          <!-- <button class="p-2">Represento um Clube</button> -->
 
                         </div>
 
@@ -798,7 +801,8 @@
                           <h1>Profissionais</br>
                             do Esporte</h1>
 
-                          <button class="p-2">Sou Profissional do Esporte</button>
+                          <!-- <button class="p-2">Sou Profissional do Esporte</button> -->
+                           <a  href="https://www.atletasnow.com/app/cadastro/ ">  <button class="p-2">Sou Profissional do Esporte</button> </a>
 
                         </div>
 
@@ -838,7 +842,8 @@
                           <h1>Confederações</br>
                             e Federações</h1>
 
-                          <button class="p-2">Represento uma Federação</button>
+                          <!-- <button class="p-2">Represento uma Federação</button> -->
+                           <a  href="https://www.atletasnow.com/confederacoes/ ">  <button class="p-2">Represento uma Federacao</button> </a>
 
                         </div>
 
@@ -883,7 +888,7 @@
 
 
         <div class="container-h-100" style="width: 100%">
-            <img width="100%" src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/awards.jpeg">
+            <img width="100%" src="/wp-content/themes/whistle/new_style/img/awards.jpeg">
         </div>
 
 
@@ -892,43 +897,60 @@
 
         <div class="col-md-12 section-4">
 
+
             <!-- <div class="col-md-12 section-4 text-center"> -->
 
                 <div class="row" style="font-family: Axiforma;">
                     <div class="col-md-12 p-2"><h1 class="first" style="font-family: Axiforma;">Conteúdos Exclusivos AtletasNow</h1></div>
 
 
+<?php
+    $args = array(
+  'numberposts' => 3,
+
+);
+
+$recent_posts = wp_get_recent_posts( $args );
+
+
+?>
+
+<?php
+  // $recent_posts = wp_get_recent_posts();
+  foreach( $recent_posts as $recent ){
+
+
+ 
+       ?>
+
+
+
+
+<!-- echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> '; -->
+
+       
+
                     <!-- <div class="row"> -->
                       <div class="col-md-4">
-                        <img class="m-4" src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/atletismo-modalidades-regras.jpg">
 
-                        <h2 class="text-left m-4">Principais Dúvidas De Quem Quer Seguir Carreira Esportiva</h2>
+                      <img class="m-4" src="<?php echo get_the_post_thumbnail( $recent["ID"], 'thumbnail' ); ?>"/>
 
-                        <p class="text-left m-4">Muitos podem ser os motivos que te fazem escolher por uma profissão ou hobby, porém algumas opções são completadas com mais do que um...</p>
+                        <h2 class="text-left m-4"> <?php echo  $recent['post_title']; ?></h2>
+
+                        <p class="text-left m-4"><?php $trimmed_content = wp_trim_words( $recent['post_content'], 35, NULL );
+
+       echo $trimmed_content; ?></p>
                       </div>
                     <!-- </div> -->
 
-
-                    <div class="col-md-4">
-                        <img class="m-4" src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/atletismo-modalidades-regras.jpg">
-
-                        <h2 class="text-left m-4">Principais Dúvidas De Quem Quer Seguir Carreira Esportiva</h2>
-
-                        <p class="text-left m-4">Muitos podem ser os motivos que te fazem escolher por uma profissão ou hobby, porém algumas opções são completadas com mais do que um...</p>
-                      </div>
-
-
-
-                      <div class="col-md-4">
-                        <img class="m-4" src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/atletismo-modalidades-regras.jpg">
-
-                        <h2 class="text-left m-4">Principais Dúvidas De Quem Quer Seguir Carreira Esportiva</h2>
-
-                        <p class="text-left m-4">Muitos podem ser os motivos que te fazem escolher por uma profissão ou hobby, porém algumas opções são completadas com mais do que um...</p>
-                      </div>
+       <?php
+  }
+  wp_reset_query();
+?>
 
 
                       <div class="col-md-12 text-center"><button class="btn p-3 m-4">Mais Conteúdos</button></div>
+
 
 
                   </div>
@@ -957,7 +979,7 @@
 
          <div class="col-md-4">
             
-            <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/logo-cor-2.png"  class="">
+            <img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"  class="">
 
          </div>
 
@@ -982,17 +1004,17 @@
             <!-- Links -->
             <!-- <h5 class="text-uppercase">Links</h5> -->
 
-            <button class="btn btn-primary">Sou atleta profissional</button>
+            <a href="https://www.atletasnow.com/app/cadastro/"><button class="btn btn-primary">Sou atleta profissional</button></a>
 
             <ul class="list-unstyled mt-3">
               <li>
-                <a href="#!">Clubes</a>
+                <a href="https://www.atletasnow.com/clubes/">Clubes</a>
               </li>
               <li>
-                <a href="#!">Profissionais do Esporte</a>
+                <a href="https://www.atletasnow.com/profissionais-do-esporte/">Profissionais do Esporte</a>
               </li>
               <li>
-                <a href="#!">Confederações e Federações</a>
+                <a href="https://www.atletasnow.com/confederacoes/">Confederações e Federações</a>
               </li>
 
               <hr>
@@ -1000,14 +1022,24 @@
                 <a href="#!">Sobre o AtletasNow</a>
               </li>
 
-              <li><a href="#!">Nosso Blog</a></li>
+              <li><a href="https://www.atletasnow.com/blog">Nosso Blog</a></li>
             </ul>
 
           </div>
           <!-- Grid column -->
 
+
+          <style type="text/css">
+            
+            .footer_right-column a{
+
+                color: #fff;
+            }
+
+          </style>
+
           <!-- Grid column -->
-            <div style="font-family: Axiforma;" class="col-md-4 footer_right-column text-left">
+            <div style="font-family: Axiforma; text-decoration: none;" class="col-md-4 footer_right-column text-left">
 
             <!-- Links -->
                 <h3>Contatos</h3>
@@ -1015,7 +1047,7 @@
                 <div class="row">
                   <div class="col-md-4">
                     <span>Imprensa:</span>
-                    <p>press@atletasnow.com</p>
+                    <p><a href="mailto:press@atletasnow.com?Subject=Hello%20again" target="_top">press@atletasnow.com</a></p>
                     
                   </div>
                 </div>
@@ -1024,7 +1056,8 @@
                   <div class="col-md-4">
 
                     <span>Parcerias:</span>
-                    <p>partner@atletasnow.com</p>
+                    <!-- <p>partner@atletasnow.com</p> -->
+                     <p><a href="mailto:partner@atletasnow.com?Subject=Hello%20again" target="_top">partner@atletasnow.com</a></p>
                     
                   </div>
                 </div>
@@ -1032,7 +1065,8 @@
                 <div class="row">
                   <div class="col-md-4">
                     <span>Suporte:</span>
-                    <p>support@atletasnow.com</p>
+                    <!-- <p>support@atletasnow.com</p> -->
+                     <p><a href="mailto:support@atletasnow.com?Subject=Hello%20again" target="_top">support@atletasnow.com</a></p>
                   </div>
                 </div>
 
@@ -1056,9 +1090,9 @@
                 <!-- <div class="row"> -->
                   <div class="col-md-4 d-flex justify-content-center ml-4" style="">
 
-                    <div class="inner m-2 p-4" style=""></div>
-                    <div class="inner m-2 p-4" style=""></div>
-                      <div class="inner m-2 p-4" style=""></div>
+                    <div class="" style=""><img width="64" height="64" src="wp-content/themes/whistle/new_style/img/Captura de Tela 2019-03-15 às 14.19.56.png" /></div>
+                    <div class="mt-1" style=""><img width="60"  height="60" src="/wp-content/themes/whistle/new_style/img/Captura de Tela 2019-03-15 às 14.25.30.png"></div>
+                      <div class="mt-1" style=""><img width="60"  height="60" src="/wp-content/themes/whistle/new_style/img/Captura de Tela 2019-03-15 às 14.25.40.png"></div>
                   </div>
                 <!-- <div class="square "></div> -->
 

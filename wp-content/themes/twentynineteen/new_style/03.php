@@ -13,13 +13,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-    <link rel="stylesheet" href="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/css/style.css">
-    <link rel="stylesheet" href="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/css/style_404.css">
+
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style.css">
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style_erro_page.css">
     <title>Hello, world!</title>
 
     <style type="text/css">
@@ -30,7 +31,7 @@
       
           background-size:cover;
           position: relative;
-          background-image: url("/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/img-destaque-profissionais.png");
+          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-profissionais.png");
         }
     </style>
     <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
@@ -43,7 +44,7 @@
     <header>
 
               <nav class="navbar navbar-expand-lg navbar-light">
-              <a class="navbar-brand" href="#"><img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/logo-cor-2.png"/></a>
+              <a class="navbar-brand" href="#"><img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"/></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -78,7 +79,7 @@
                   </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                 <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/selo-yahoo.png">
+                 <img src="/wp-content/themes/whistle/new_style/img/selo-yahoo.png">
                 </form>
               </div>
             </nav>
@@ -174,17 +175,17 @@ de atletas profissionais.</h2>
           <div class="row m-5">
 
             <div class="col-md-4">
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/estatisticas.png">
+              <img src="/wp-content/themes/whistle/new_style/img/estatisticas.png">
               <h4>Estatísticas oficiais</h4>
             </div> 
 
             <div class="col-md-4">
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/visibilidade.png">
+              <img src="/wp-content/themes/whistle/new_style/img/visibilidade.png">
               <h4>Visibilidade</h4>
             </div> 
 
             <div class="col-md-4">
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/patrocinio.png">
+              <img src="/wp-content/themes/whistle/new_style/img/patrocinio.png">
               <h4>Oportunidades
 de patrocínio</h4>
             </div>
@@ -194,20 +195,20 @@ de patrocínio</h4>
           <div class="row m-5">
 
             <div class="col-md-4">
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/acesso.png">
+              <img src="/wp-content/themes/whistle/new_style/img/acesso.png">
               <h4>Acesso a profissionais
 do esporte</h4>
             </div> 
 
             <div class="col-md-4">
 
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/online.png">
+              <img src="/wp-content/themes/whistle/new_style/img/online.png">
               <h4>Tudo online e fácil
 de compartilhar</h4>
             </div> 
 
             <div class="col-md-4">
-              <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/conteudos.png">
+              <img src="/wp-content/themes/whistle/new_style/img/conteudos.png">
               <h4>Conteúdos e
 descontos esclusivos</h4>
             </div>
@@ -252,7 +253,7 @@ descontos esclusivos</h4>
 
          <div class="col-md-4">
             
-            <img src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/img/logo-cor-2.png"  class="">
+            <img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"  class="">
 
          </div>
 
@@ -382,8 +383,8 @@ descontos esclusivos</h4>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/js/jquery.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="/wp_atletasnow/wp-content/themes/twentynineteen/new_style/assets/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
   </body>
 </html>
