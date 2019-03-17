@@ -280,10 +280,10 @@ de forma organizada</h4>
               
               <div class="col-md-12 text-center mt-5">
 
-                  <h1 class="">Atleta, aumente suas chances de vencer.</h1>
-                  <p>Ganhe visibilidade, oportunidades de patrocínio, acesso à profissionais do esporte,
-    conteúdos e descontos exclusivos.</p>
-                  <button class="btn m-3">Cadastre-se no AtletasNow</button>
+                  <h1 class="">Traga seu Clube ou Universidade para a AtletasNow</h1>
+                  <p>Gerencie e comunique com todos os atletas do clube, tenha as estatísticas nas suas mãos
+para melhorar desempenho ou trazer novos talentos.</p>
+                 <a href="http://www.atletasnow.com/app/cadastro"> <button class="btn m-3">Cadastre seu Clube ou Universidade</button>
               </div>
 
             </div>

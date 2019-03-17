@@ -226,9 +226,9 @@ descontos esclusivos</h4>
               
               <div class="col-md-12 text-center mt-5">
 
-                  <h1 class="">Atleta, aumente suas chances de vencer.</h1>
-                  <p>Ganhe visibilidade, oportunidades de patrocínio, acesso à profissionais do esporte,
-    conteúdos e descontos exclusivos.</p>
+                  <h1 class="">Divulgue seus serviços para todos os atletas</h1>
+                  <p>Mostre seus diferenciais para atletas de seu interesse, receba recomendações
+tudo online e fácil de usar.</p>
                   <button class="btn m-3">Cadastre-se no AtletasNow</button>
               </div>
 

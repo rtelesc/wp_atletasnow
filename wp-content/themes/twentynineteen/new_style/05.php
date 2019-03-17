@@ -280,10 +280,10 @@ de forma organizada</h4>
               
               <div class="col-md-12 text-center mt-5">
 
-                  <h1 class="">Atleta, aumente suas chances de vencer.</h1>
-                  <p>Ganhe visibilidade, oportunidades de patrocínio, acesso à profissionais do esporte,
-    conteúdos e descontos exclusivos.</p>
-                <a href="https://www.atletasnow.com/app/cadastro/">  <button class="btn m-3">Cadastre-se no AtletasNow</button> </a>
+                  <h1 class="">Todos os atletas da Federação em um só lugar </h1>
+                  <p>Gerencie e comunique com todos os atletas da federação, tenha as estatísticas e informações
+sempre online de forma organizada e fácil de encontrar.</p>
+                <a href="https://www.atletasnow.com/app/cadastro/">  <button class="btn m-3">Cadastre a Federação</button> </a>
               </div>
 
             </div>
