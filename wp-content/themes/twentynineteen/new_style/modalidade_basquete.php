@@ -1,7 +1,7 @@
 
 <?php
 /*
-  Template Name: Modalidade Futebol
+  Template Name: Modalidade Basquete
 */
 
 ?>
@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style.css">
     <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style_erro_page.css">
-    <title>AtletasNow - Modalidade Futebol</title>
+    <title>AtletasNow - Modalidade Basquete</title>
 
     <style type="text/css">
          header {
@@ -30,7 +30,7 @@
       
           background-size:cover;
           position: relative;
-          background-image: url("http://www.osmais.com/wallpapers/201212/futebol-bola-wallpaper_f42dd.jpg");
+          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-home.jpg");
         }
     </style>
     <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
@@ -107,7 +107,7 @@
   font-stretch: normal;
   line-height: normal;
   letter-spacing: -0.3px;
-  color: #ffffff;">Futebol </h1>
+  color: #ffffff;">Basquete </h1>
                 </div>
 
 
@@ -684,7 +684,7 @@
 
         <div class="col-md-12 text-center mt-5">
           <!-- <h1>As melhores oportunidades para os melhores atletas.</h1> -->
-           <h1>Estatísticas do Futebol no Brasil</h1>
+           <h1>Estatísticas do Basquete no Brasil</h1>
 
 
           <div class="row m-5">
@@ -738,7 +738,7 @@
                 line-height: normal;
                 letter-spacing: -0.1px;
                 text-align: center;
-                color: #4a4a4a;">Gols Marcados</span>
+                color: #4a4a4a;">Total de Pontos</span>
 
 
                 <h1 style="font-size: 60px;
@@ -750,7 +750,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #d03014;">251</h1>
+                color: #d03014;">2.512</h1>
               </div>
 
             </div>
@@ -773,7 +773,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #4a4a4a;">Faltas</span>
+                color: #4a4a4a;">Média de Pontos por jogo</span>
 
 
                 <h1 style="font-size: 60px;
@@ -785,7 +785,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #d03014;">3.296</h1>
+                color: #d03014;">162</h1>
               </div>
 
             </div>
@@ -812,7 +812,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #4a4a4a;">Jogos sem gols sofridos</span>
+                color: #4a4a4a;">Total de Assistências</span>
 
 
                 <h1 style="font-size: 60px;
@@ -847,7 +847,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #4a4a4a;">Cartão Vermelho</span>
+                color: #4a4a4a;">Total de Rebotes</span>
 
 
                 <h1 style="font-size: 60px;
@@ -882,7 +882,7 @@
                 text-align: center;
                 margin-top: 1em;
 
-                color: #4a4a4a;">Cartão Amarelo</span>
+                color: #4a4a4a;">Total de Arremessos de 3</span>
 
 
                 <h1 style="font-size: 60px;
