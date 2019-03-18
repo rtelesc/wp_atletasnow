@@ -1,6 +1,7 @@
+
 <?php
 /*
-  Template Name: Nova Home
+  Template Name: Modalidade Natacao
 */
 
 ?>
@@ -12,45 +13,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
     <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style.css">
-    <title>AtletasNow  - Pagina Inicial</title>
-    <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+    <link rel="stylesheet" href="/wp-content/themes/whistle/new_style/assets/css/style_erro_page.css">
+    <title>AtletasNow - Modalidade Natação</title>
 
-
-
-<link rel='stylesheet' id='redux-google-fonts-startos_option-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A300&#038;ver=1550572742' type='text/css' media='all' />
     <style type="text/css">
-      
-
          header {
-          width: 100%
-          height:100vh;
-          min-height:20%;
-          max-height: 30%;
+          width: 100%;
+     
+          height: 40em;
+      
           background-size:cover;
           position: relative;
-          background-image: url("/wp-content/themes/whistle/new_style/img/img-destaque-home.jpg");
+          background-image: url("https://images.alphacoders.com/649/thumb-1920-649361.jpg");
         }
-
-      
     </style>
+    <link rel='stylesheet' id='startos-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C600%2C700%2C800%2C300&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='redux-google-fonts-startos_option-css'  href='http://fonts.googleapis.com/css?family=Montserrat%3A300&#038;ver=1550572742' type='text/css' media='all' />
   </head>
   <body>
 
 
 
+    <header>
 
-
-
-<header>
-
-  <nav class="navbar navbar-expand-lg navbar-light">
+              <nav class="navbar navbar-expand-lg navbar-light">
   <a class="navbar-brand" href="https://www.atletasnow.com/"><img src="/wp-content/themes/whistle/new_style/img/logo-cor-2.png"/></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -91,32 +83,36 @@
   </div>
 </nav>
 
-
-       <!-- <div class="row"> -->
-            <div class="col-md-12">
+ <div class="col-md-12 section_404_01">
                 
+                <div class="row">
 
             
 
-            <div class="col-md-12 mt-5">
+              <!--   <div class="col-md-12 mt-5">
 
-              <h1 class="h1_atletas text-center">Os melhores atletas profissionais</br>
-                do Brasil estão aqui.</h1>
-            </div>
-
-          </div>
-
+                  <h1 class="h1_atletas text-center">Os melhores atletas profissionais</br>
+                    do Brasil estão aqui.</h1>
+                </div>
+ -->
 
 
+                <div class="col-md-6 mt-5 text-center">
+                  <h1 style="
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-family: Axiforma;
+  /*font-size: 60px;*/
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -0.3px;
+  color: #ffffff;">Natação </h1>
+                </div>
 
 
-
-
-          <div class="col-md-12 section-5">
-
-
-          <div class="col-md-6 mt-5 mx-auto ">
-            <form method="get" action="https://www.atletasnow.com/atleta-nao-encontrado/">
+                <div class="col-md-4 mt-5">
+                  <form method="get" action="https://www.atletasnow.com/atleta-nao-encontrado/">
             <div class="input-group mb-4">
               <input type="text" class="form-control mt-5 input_search" name="pesquisa" placeholder="Digite o nome do atleta ou modalidade">
               <div class="input-group-append">
@@ -125,20 +121,34 @@
                 </button>
               </div>
             </form>
+                </div>
+
+             
+
+              <!--   <div class="col-md-12 mt-5">
+                  <h1 class="h1_02">Este atleta ainda não está na AtletasNow. <?php 
+
+//global $wp;
+
+                  ?></h1>
+                </div> -->
+
+
+
+                <div class="col-md-12 text-center mt-5">
+                 
+                </div>
+
+
+              </div>
             </div>
 
 
-            <!-- <div class=""> -->
-            <!-- <div class="col-md-6 mt-5"> -->
-            <a href="https://www.atletasnow.com/modalidade-futebol/">Futebol</a> <a href="https://www.atletasnow.com/modaliadade-basquete/">Basquete</a><a href="https://www.atletasnow.com/modalidade-atletismo">Atletismo</a><a href="https://www.atletasnow.com/modalidade-natacao/">Natação</a><a href="https://www.atletasnow.com/modalidade-tenis">Tênis</a><a href="https://www.atletasnow.com/modalidade-golfe">Golfe</a> <a href="">Mais esportes</a>
-
-            <!-- </div> -->
-          </div>
-
-            
 
 
-            </div>
+
+
+
 
             <!-- <div class="row"> -->
               <div  class="col-md-12 mt-5 pb-5 section-6">
@@ -651,43 +661,210 @@
 
 
 </div>
+
             
             <!-- </div> -->
 
 
         <!-- </div> -->
 </header>
+  
+  <div class="col-md-12" style="background-color: #fff; height: 20em;">
+
+  </div>
+
+<!-- <div class="col-md-12 container h-100 align-items-center" style="background-color: #f7f5f4;"> -->
 
 
-<!-- </div> -->
-    
-    <!-- <div class="row"> -->
+   
 
-        <!-- <div class="container">
+  <div class="col-md-12" style="background-color: #f7f5f4;">
 
-            <div class="col-md-12">
+      <div class="row p-5">
+
+        <div class="col-md-12 text-center mt-5">
+          <!-- <h1>As melhores oportunidades para os melhores atletas.</h1> -->
+           <h1>Estatísticas de Natação no Brasil</h1>
+
+
+          <div class="row m-5">
+
+            <div class="col-md-4">
+             
+              <div  style="
+                height: 15em;
+                width: 100%;
+                box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+                background-color: #ffffff;" >
+
+                <span style="font-family: Axiforma;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.1px;
+                text-align: center;
+                color: #4a4a4a;">Torneios na Temporada</span>
+
+
+                <h1 style="font-size: 60px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.3px;
+                text-align: center;
+                margin-top: 1em;
+
+                color: #d03014;">68</h1>
+              </div>
 
             </div>
-        </div> -->
 
 
-         <div class="col-md-12 container-h-100"" style="height: 20em;">
-
-
-
-            <!-- <div class="row"> -->
-              
+             <div class="col-md-4">
              
+              <div  style="
+                height: 15em;
+                width: 100%;
+                box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+                background-color: #ffffff;">
+                 <span style="font-family: Axiforma;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.1px;
+                text-align: center;
+                color: #4a4a4a;">Recorde da Temporada</span>
 
-            <!-- </div> -->
 
+                <h1 style="font-size: 60px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.3px;
+                text-align: center;
+                margin-top: 1em;
+
+                color: #d03014;">0’51’’</h1>
+              </div>
+
+            </div>
+
+
+             <div class="col-md-4">
+             
+              <div  style="
+                height: 15em;
+                width: 100%;
+                box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.1);
+                background-color: #ffffff;">
+                 <span style="font-family: Axiforma;
+                font-size: 16px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.1px;
+                text-align: center;
+                margin-top: 1em;
+
+                color: #4a4a4a;">Total de Medalhas</span>
+
+
+                <h1 style="font-size: 60px;
+                font-weight: 600;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: -0.3px;
+                text-align: center;
+                margin-top: 1em;
+
+                color: #d03014;">162</h1>
+              </div>
+
+            </div>
+
+          </div>
 
         </div>
+      </div>
+    </div>
+      <!-- <div class="row "> -->
+
+        <!-- <div class="col-md-12  mt-5 "> -->
+
+        
 
 
-        <div class="col-md-12 section-1 mt-5">
+      
 
 
+       
+
+   
+
+  <div class="col-md-12">
+
+      <div class="row p-5">
+
+        <div class="col-md-12 text-center mt-5">
+          <h1>As melhores oportunidades para os melhores atletas.</h1>
+
+          <div class="row m-5">
+
+            <div class="col-md-4">
+              <img src="/wp-content/themes/whistle/new_style/img/estatisticas.png">
+              <h4>Estatísticas oficiais</h4>
+            </div> 
+
+            <div class="col-md-4">
+              <img src="/wp-content/themes/whistle/new_style/img/visibilidade.png">
+              <h4>Visibilidade</h4>
+            </div> 
+
+            <div class="col-md-4">
+              <img src="/wp-content/themes/whistle/new_style/img/patrocinio.png">
+              <h4>Oportunidades
+de patrocínio</h4>
+            </div>
+
+          </div>
+
+          <div class="row m-5">
+
+            <div class="col-md-4">
+              <img src="/wp-content/themes/whistle/new_style/img/acesso.png">
+              <h4>Acesso a profissionais
+do esporte</h4>
+            </div> 
+
+            <div class="col-md-4">
+
+              <img src="/wp-content/themes/whistle/new_style/img/online.png">
+              <h4>Tudo online e fácil
+de compartilhar</h4>
+            </div> 
+
+            <div class="col-md-4">
+              <img src="/wp-content/themes/whistle/new_style/img/conteudos.png">
+              <h4>Conteúdos e
+descontos esclusivos</h4>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+  </div>
+
+  <div class="col-md-12 section-1">
 
             <div class="row p-5">
               
@@ -696,7 +873,7 @@
                   <h1 class="">Atleta, aumente suas chances de vencer.</h1>
                   <p>Ganhe visibilidade, oportunidades de patrocínio, acesso à profissionais do esporte,
     conteúdos e descontos exclusivos.</p>
-                <a href="https://www.atletasnow.com/app/cadastro/">  <button   class="btn m-3">Cadastre-se no AtletasNow</button></a>
+                  <button class="btn m-3">Cadastre-se no AtletasNow</button>
               </div>
 
             </div>
@@ -706,270 +883,7 @@
 
 
 
-
-        <!-- PARA QUEM E O ATLETAS NOW -->
-        <div class="container">
-            <div class="col-md-12 section-3 mt-3">
-
-              <h1 class="first">Para quem é  AtletasNow?</h1>
-
-
-              <!-- <div class="row"> -->
-                
-
-                <div class="col-md-12">
-
-                 <div class="row m-5">
-                        <div class="col-md-6">
-                          <h1>Atletas</br>
-                          Profissionais</h1>
-
-                        <a  href="https://www.atletasnow.com/app/cadastro/ ">  <button class="p-2">Sou atleta profissional</button> </a>
-
-                        </div>
-
-                        <div class="col-md-4 text-left mt-5">
-
-
-                          <ul class="list-unstyled">
-                            <ul style="font-family: Axiforma;
-  /*font-size: 22px;*/
-                              font-weight: 300;
-                              font-style: normal;
-                              font-stretch: normal;
-                              line-height: 1.45;
-                              letter-spacing: -0.1px;
-                              color: #4a4a4a;">
-                                <li>Estatísticas oficiais</li>
-                                <li>Visibilidade</li>
-                                <li>Oportunidades de patrocínio</li>
-                                <li>Acesso à profissionais do esporte</li>
-                                <li>Conteúdos e descontos exclusivos</li>
-                              </ul>
-                          </ul>
-
-                        </div>
-
-                  </div>
-
-                </div>
-
-
-                <div class="col-md-12">
-
-                 <div class="row m-5">
-                        <div class="col-md-6">
-                          <h1>Clubes e </br>
-                          Universidades</h1>
-
- <a  href="https://www.atletasnow.com/clubes/">  <button class="p-2">Represento um Clube</button> </a>
-                          <!-- <button class="p-2">Represento um Clube</button> -->
-
-                        </div>
-
-                        <div class="col-md-6 text-left mt-5">
-
-
-                          <ul class="list-unstyled">
-                            <ul style="font-family: Axiforma;
-  /*font-size: 22px;*/
-                              font-weight: 300;
-                              font-style: normal;
-                              font-stretch: normal;
-                              line-height: 1.45;
-                              letter-spacing: -0.1px;
-                              color: #4a4a4a;">
-                               <li>Perfil oficial e atletas vinculados</li>
-                               <li>Estatísticas de todos os jogadores</li>
-                               <li>Busca avançada de atletas</li>
-                               <li>Publicação, contato e seleção de atletas</li>
-                               <li>Comunicação única com os atletas do clube</li>
-                              </ul>
-                          </ul>
-
-                        </div>
-
-                  </div>
-
-                </div>
-
-
-
-
-                <div class="col-md-12">
-
-                  <div class="row m-5">
-                        <div class="col-md-6">
-                          <h1>Profissionais</br>
-                            do Esporte</h1>
-
-                          <!-- <button class="p-2">Sou Profissional do Esporte</button> -->
-                           <a  href="https://www.atletasnow.com/profissionais-do-esporte/">  <button class="p-2">Sou Profissional do Esporte</button> </a>
-
-                        </div>
-
-                        <div class="col-md-6 text-left mt-5">
-
-                          <ul class="list-unstyled">
-                              <ul style="font-family: Axiforma;
-  /*font-size: 22px;*/
-                              font-weight: 300;
-                              font-style: normal;
-                              font-stretch: normal;
-                              line-height: 1.45;
-                              letter-spacing: -0.1px;
-                              color: #4a4a4a;">
-                                <li> Perfil oficial </li>
-                                <li> Atletas conectados ao profissional</li>
-                                <li> Recomendações de atletas </li>
-                                <li> Divulgação segmentada dos serviços </li>
-                                <li>Busca avançada de atletas</li>
-
-                              </ul>
-                              
-                          </ul>
-
-                        </div>
-
-                  </div>
-
-                </div>
-
-
-
-                 <div class="col-md-12">
-
-                  <div class="row m-5">
-                        <div class="col-md-6">
-                          <h1>Confederações</br>
-                            e Federações</h1>
-
-                          <!-- <button class="p-2">Represento uma Federação</button> -->
-                           <a  href="https://www.atletasnow.com/confederacoes/ ">  <button class="p-2">Represento uma Federaçao</button> </a>
-
-                        </div>
-
-                        <div class="col-md-6 text-left mt-5">
-
-
-                          <ul class="list-unstyled">
-                              <ul style="font-family: Axiforma;
-  /*font-size: 22px;*/
-                              font-weight: 300;
-                              font-style: normal;
-                              font-stretch: normal;
-                              line-height: 1.45;
-                              letter-spacing: -0.1px;
-                              color: #4a4a4a;">
-
-                                <li> Perfil oficial e seus atletas </li>
-                                <li> Estatísticas dos jogadores  </li>
-                                <li> Busca avançada de atletas </li>
-                                <li> Comunicação única com todos os atletas </li>
-
-                              </ul>
-                              
-                          </ul>
-
-                        </div>
-
-                  </div>
-
-                </div>
-              
-              <!-- </div> -->
-              
-
-            <!-- </div> -->
-        </div>
-
-
-      </div>
-
-
-
-
-        <div class="container-h-100" style="width: 100%">
-            <img width="100%" src="/wp-content/themes/whistle/new_style/img/awards.jpeg">
-        </div>
-
-
-
-
-
-        <div class="col-md-12 section-4">
-
-
-            <!-- <div class="col-md-12 section-4 text-center"> -->
-
-                <div class="row" style="font-family: Axiforma;">
-                    <div class="col-md-12 p-2"><h1 class="first" style="font-family: Axiforma;">Conteúdos Exclusivos AtletasNow</h1></div>
-
-
-<?php
-    $args = array(
-  'numberposts' => 3,
-
-);
-
-$recent_posts = wp_get_recent_posts( $args );
-
-
-?>
-
-<?php
-  // $recent_posts = wp_get_recent_posts();
-  foreach( $recent_posts as $recent ){
-
-
- 
-       ?>
-
-
-
-
-
-<!-- echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .   $recent["post_title"].'</a> </li> '; -->
-
-                  <?php $acabar =  get_the_post_thumbnail( $recent["ID"], "thumbnail" ); 
-
-                  ?>
-
-                    <!-- <div class="row"> -->
-                      <div class="col-md-4">
-
-                      <img class="m-4" src="<?php echo 
-                   $acabar;  ?>
-
-                        <a href="<?php  echo get_permalink(  $recent["ID"]); ?>"><h2 class="text-left m-4"> <?php echo  $recent['post_title']; ?></h2></a>
-
-                        <p class="text-left m-4"><?php $trimmed_content = wp_trim_words( $recent['post_content'], 35, NULL );
-
-       echo $trimmed_content; ?></p>
-                      </div>
-                    <!-- </div> -->
-
-       <?php
-  }
-  wp_reset_query();
-?>
-
-
-                      <div class="col-md-12 text-center"><a href="https://www.atletasnow.com/blog"><button class="btn p-3 m-4">Mais Conteúdos</button></a></div>
-
-
-
-                  </div>
-
-              </div>
-
-        
-      
-
-
-
-
-
+        <!-- Footer -->
 
         <!-- Footer -->
 <footer class="page-footer pt-4">
@@ -1125,29 +1039,13 @@ $recent_posts = wp_get_recent_posts( $args );
 
 
     
-
-    <style type="text/css">
-      @media only screen and (max-width: 408px) {
-          .destaques_first  {
-
-            display: block !important;
-            float:left; width: 80% !important; position:absolute; z-index: 1; right: 2em;   height: 300px;
-
-          }
-          .destaques {
-
-            display: none;
-          }
-        }
-
-    </style>
       
     
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <script src="assets/js/bootstrap.min.js"></script>
   </body>
 </html>
