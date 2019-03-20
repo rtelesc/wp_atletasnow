@@ -121,7 +121,7 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   font-family: Axiforma;
   /*font-size: 60px;*/
-  font-size: 40px;
+  /*font-size: 40px;*/
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -283,7 +283,10 @@ de forma organizada</h4>
                   <h1 class="">Traga seu Clube ou Universidade para a AtletasNow</h1>
                   <p>Gerencie e comunique com todos os atletas do clube, tenha as estatísticas nas suas mãos
 para melhorar desempenho ou trazer novos talentos.</p>
-                 <a href="http://www.atletasnow.com/app/cadastro"> <button class="btn m-3">Cadastre seu Clube ou Universidade</button>
+                 <a href="http://www.atletasnow.com/app/cadastro"> 
+
+
+                  <div class="col-md-4"><button class="btn">Cadastre seu Clube ou Universidade</button></div>
               </div>
 
             </div>
@@ -452,8 +455,8 @@ para melhorar desempenho ou trazer novos talentos.</p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
   </body>
 </html>

@@ -159,7 +159,6 @@
               <!-- <div class="row"> -->
 
 
-
                   <div style="width: 9%;
                               height: 60px;
                               /*float: left ;*/
@@ -687,9 +686,9 @@
            <h1>Estatísticas do Atletismo no Brasil</h1>
 
 
-          <div class="row m-5">
+          <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -723,7 +722,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -756,7 +755,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -1031,9 +1030,6 @@ descontos esclusivos</h4>
     </div>
     <!-- Copyright -->
 
-
-
-
   </footer>
   <!-- Footer -->
 
@@ -1044,8 +1040,8 @@ descontos esclusivos</h4>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
   </body>
 </html>

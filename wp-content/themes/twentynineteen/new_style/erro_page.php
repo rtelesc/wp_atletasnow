@@ -108,6 +108,7 @@
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
+  text-transform: capitalize;
   letter-spacing: -0.3px;
   color: #ffffff;"><?php echo $_GET['pesquisa']; ?> </h1>
                 </div>

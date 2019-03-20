@@ -687,7 +687,7 @@
            <h1>Estatísticas do Futebol no Brasil</h1>
 
 
-          <div class="row m-5">
+          <div class="row">
 
             <div class="col-md-4">
              
@@ -723,7 +723,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -756,7 +756,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -793,7 +793,7 @@
           </div>
 
 
-          <div class="row m-5">
+          <div class="row mt-5">
 
             <div class="col-md-4">
              
@@ -830,7 +830,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -865,7 +865,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -926,17 +926,17 @@
 
           <div class="row m-5">
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
               <img src="/wp-content/themes/whistle/new_style/img/estatisticas.png">
               <h4>Estatísticas oficiais</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
               <img src="/wp-content/themes/whistle/new_style/img/visibilidade.png">
               <h4>Visibilidade</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
               <img src="/wp-content/themes/whistle/new_style/img/patrocinio.png">
               <h4>Oportunidades
 de patrocínio</h4>
@@ -946,20 +946,20 @@ de patrocínio</h4>
 
           <div class="row m-5">
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
               <img src="/wp-content/themes/whistle/new_style/img/acesso.png">
               <h4>Acesso a profissionais
 do esporte</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
 
               <img src="/wp-content/themes/whistle/new_style/img/online.png">
               <h4>Tudo online e fácil
 de compartilhar</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 m-2">
               <img src="/wp-content/themes/whistle/new_style/img/conteudos.png">
               <h4>Conteúdos e
 descontos esclusivos</h4>
@@ -1116,7 +1116,7 @@ descontos esclusivos</h4>
                   </style>
 
                 <!-- <div class="row"> -->
-                  <div class="col-md-4 d-flex justify-content-center ml-4" style="">
+                  <div class="col-md-4 d-flex justify-content-center" style="">
 
                     <div class="" style=""><a href="https://www.facebook.com/atletasnow/"><img width="64" height="64" src="https://www.atletasnow.com/wp-content/themes/whistle/new_style/img/Captura%20de%20Tela%202019-03-15%20a%CC%80s%2014.19.56.png" /></a></div>
                     <div class="mt-1" style=""><a href="https://www.instagram.com/atletas_now/"><img width="60"  height="60" src="/wp-content/themes/whistle/new_style/img/Captura de Tela 2019-03-15 às 14.25.30.png"></a></div>
@@ -1152,8 +1152,8 @@ descontos esclusivos</h4>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
   </body>
 </html>

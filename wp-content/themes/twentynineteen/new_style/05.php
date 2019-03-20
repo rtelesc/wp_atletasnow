@@ -106,7 +106,7 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   font-family: Axiforma;
   /*font-size: 60px;*/
-  font-size: 55px;
+  /*font-size: 55px;*/
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -121,7 +121,7 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   font-family: Axiforma;
   /*font-size: 60px;*/
-  font-size: 40px;
+  /*font-size: 40px;*/hotmh
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -139,7 +139,7 @@ você só encontra na AtletasNow.</h5>
 
                 <div class="col-md-12 text-center mt-5">
                  <a href="https://www.atletasnow.com/app/cadastro/"> <button class="btn" style="font-family: Axiforma-SemiBold
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;

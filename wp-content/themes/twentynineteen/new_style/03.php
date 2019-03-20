@@ -104,7 +104,7 @@
                   
                   <h1 style="text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
   font-family: Axiforma;
-  font-size: 60px;
+  /*font-size: 60px;*/
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
@@ -115,7 +115,7 @@
 
 
     <h5 style="font-family: Axiforma;
-  font-size: 18px;
+  /*font-size: 18px;*/
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -135,7 +135,7 @@ de atletas profissionais.</h2>
 
                 <div class="col-md-12 text-center mt-5">
                   <button class="btn" style="font-family: Axiforma;
-  font-size: 16px;
+  /*font-size: 16px;*/
   font-weight: 600;
   font-style: normal;
   font-stretch: normal;
@@ -394,6 +394,16 @@ tudo online e fácil de usar.</p>
 
     
       
+      <style type="text/css">
+
+      @media only screen and (max-width: 620px) {
+
+        body > header > div > div > div:nth-child(1) > h2{
+          line-height: 1.2 !important;
+        }
+
+      }
+      </style>
     
 
     <!-- Optional JavaScript -->

@@ -113,18 +113,41 @@
 
 
           <div class="col-md-12 section-5">
+<!-- <form autocomplete="off" action="/action_page.php">
+  <div class="autocomplete" style="width:300px;">
+    <input id="myInput" type="text" name="myCountry" placeholder="Country">
+  </div>
+  <input type="submit">
+</form> -->
 
 
           <div class="col-md-6 mt-5 mx-auto ">
-            <form method="get" action="https://www.atletasnow.com/atleta-nao-encontrado/">
-            <div class="input-group mb-4">
-              <input type="text" class="form-control mt-5 input_search" name="pesquisa" placeholder="Digite o nome do atleta ou modalidade">
+            <form autocomplete="off" method="get" action="https://www.atletasnow.com/atleta-nao-encontrado/">
+            <div class="input-group mb-4 autocomplete">
+              <input type="text" class="form-control mt-5 input_search input_wp"  id="pesquisa" name="pesquisa" placeholder="Digite o nome do atleta ou modalidade">
               <div class="input-group-append">
                 <button style="" class="btn btn-largee mt-5" type="submit">
                   <i style="color:#ff5f00;" class="fa fa-search"></i>
                 </button>
               </div>
             </form>
+
+              <!-- <h4>Listando jogadores</h4> -->
+
+              <div class="col-md-4 box_search" style="display: none; border: 1px solid #fff;margin: 5px;background-color: #fb8626;border-radius: 3px;">
+                <h4 class="m-3" style="color: #212529;">Listando jogadores</h4>
+                <hr style="display: block;
+                height: 1px;
+                border: 0;
+                border-top: 1px solid #ccc;
+                margin: 1em 0;
+                padding: 0; ">
+
+                  <div class="result_search"></div>
+                
+                
+              </div>
+
             </div>
 
 
@@ -719,7 +742,7 @@
 
                 <div class="col-md-12">
 
-                 <div class="row m-5">
+                 <div class="row">
                         <div class="col-md-6">
                           <h1>Atletas</br>
                           Profissionais</h1>
@@ -757,7 +780,7 @@
 
                 <div class="col-md-12">
 
-                 <div class="row m-5">
+                 <div class="row">
                         <div class="col-md-6">
                           <h1>Clubes e </br>
                           Universidades</h1>
@@ -798,7 +821,7 @@
 
                 <div class="col-md-12">
 
-                  <div class="row m-5">
+                  <div class="row">
                         <div class="col-md-6">
                           <h1>Profissionais</br>
                             do Esporte</h1>
@@ -839,7 +862,7 @@
 
                  <div class="col-md-12">
 
-                  <div class="row m-5">
+                  <div class="row">
                         <div class="col-md-6">
                           <h1>Confederações</br>
                             e Federações</h1>
@@ -1149,5 +1172,92 @@ $recent_posts = wp_get_recent_posts( $args );
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+<script>
+
+//
+//    $('.input_wp').on('input', function(){
+//        // alert('Input changed');
+//
+//
+//        if(document.querySelector('.input_wp').value.length >= 3){
+//
+//            /* Mostrar combo */
+//
+//            $(".box_search").css('display', 'block');
+//
+//            console.log(document.querySelector('.input_wp').value);
+//
+//            // Exemplo de requisição POST
+//            var ajax = new XMLHttpRequest();
+//
+//            // Seta tipo de requisição: Post e a URL da API
+//            ajax.open("POST", "/wp-content/themes/whistle/api.php", true);
+//            ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+//
+//            // Seta paramêtros da requisição e envia a requisição
+//            ajax.send("nome="+ document.querySelector('.input_wp').value);
+//
+//            // Cria um evento para receber o retorno.
+//            ajax.onreadystatechange = function() {
+//
+//                // Caso o state seja 4 e o http.status for 200, é porque a requisiçõe deu certo.
+//                if (ajax.readyState == 4 && ajax.status == 200) {
+//
+//                    var data = ajax.responseText;
+//
+//                    // DELETE t1 FROM futebol t1, futebol t2 WHERE t1.id > t2.id AND t1.id_federacao = t2.id_federacao;
+//                    var html = "";
+//                    var data2 = JSON.parse(data);
+//
+//
+//                    $( ".result_search" ).html( "" );
+//
+//                    Object.keys(data2).forEach(function(k){
+//                        console.log(  ' - ' + data2["nome_completo"]);
+//
+//
+//                        html += "<div class='group_result'><a href=""><h2 style=\"\n" +
+//                            "                    font-family: Axiforma;\n" +
+//                            "                    /* font-size: 36px; */\n" +
+//                            "                  font-weight: 200;\n" +
+//                            "                  font-style: normal;\n" +
+//                            "                  font-stretch: normal;\n" +
+//                            "                  line-height: normal;\n" +
+//                            "                  /*letter-spacing: -0.2px;*/\n" +
+//                            "                  text-align: left;\n" +
+//                            "                  color: #f8f9fa;\n" +
+//                            "                  \">"+data2["nome_completo"]+"</h2>\n" +
+//                            "                  <h5 style=\"\n" +
+//                            "                  font-family: Axiforma;\n" +
+//                            "                  /* font-size: 36px; */\n" +
+//                            "                  font-weight: 200;\n" +
+//                            "                  font-style: normal;\n" +
+//                            "                  font-stretch: normal;\n" +
+//                            "                  line-height: normal;\n" +
+//                            "                  /*letter-spacing: -0.2px;*/\n" +
+//                            "                  text-align: left;\n" +
+//                            "                  color: #fff;\n" +
+//                            "                  \">Futebol</h5></a></div><hr style=\"display: block;\n" +
+//                            "                height: 1px;\n" +
+//                            "                border: 0;\n" +
+//                            "                border-top: 1px solid #ccc;\n" +
+//                            "                margin: 1em 0;\n" +
+//                            "                padding: 0; \">";
+//
+//                    });
+//
+//
+//                    $( ".result_search" ).append( html );
+//                    // Retorno do Ajax
+//                    // console.log(data);
+//                }
+//            }
+//
+//        }
+//    });
+
+</script>
   </body>
 </html>

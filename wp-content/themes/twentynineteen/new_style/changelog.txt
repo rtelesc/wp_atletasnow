@@ -1,0 +1,104 @@
+***Whistle WordPress Theme Changelog ***
+
+2018.08.28 - version 2.3
+
+* Updated latest version of all third party plugins
+* WordPress 4.9.8 compatible
+* GDPR update
+* Buddypress issue fixed
+
+2018.03.06 - version 2.2
+ * All theme functions updated for child theme support
+ * Option to change site color
+ * BuddyPress pages sidebar option issue fixed
+ * Unyson page builder conflict issue fixed
+ * Mail issue fixed with wp core function wp_mail()
+ * In Bpanel # comment removed
+ * Visual Editor option with page builder issue fixed
+ * TGM plugin bulk install issue fixed
+ * TimeTable shortcode removed by default
+ * New Widget Modules in Page Builder issues fixed
+ * Activities template page error fixed
+ * Raphael.js library latest version used
+ * Menu with disable link option issue fixed
+ * Some design tweaks updated
+ * WordPress 4.9.4 compatible
+ * Social media shortcode target attribute included
+ * Color piker issue inside page builder module issue fixed
+ * Updated latest version of all third party plugins
+
+2017.04.28 - version 2.1
+ * Some missing texts updated for translation
+ * Updated latest version of all third party plugins
+ * Unyson importer content updated
+ * Woocommerce 3.0 compatible
+ * Some design tweaks updated
+ * Few php warnings fixed
+ * Twitter widget link text issue fixed
+ * Few latest scripts updated
+
+2017.04.03 - version 2.0
+ * Some responsive and contact form design issues updated
+ * Fixed the right sidebar disable issue
+ * Catchable fatal error from woocommerce categories updated
+ * Updated Visual Composer plugin 
+ * Updated Layerslider plugin
+ * Updated Revolution Slider plugin
+ * Disable menu css issue fixed
+ * Fixed the Blockquote variation issue
+
+2016.11.09 - version 1.9
+ * Page builder fix
+
+2016.10.15 - version 1.8
+ * BPanel UI design fixes for Events Calendar update
+
+2016.09.30 - version 1.7
+ * WPML page builder issue fixed
+ * Dummy data content optimized
+ * Global page layout option updated
+ * Mailchimp updated to latest api 3.0
+ * Updated latest version of all third party plugins
+ * Font awesome css updated
+ * Social share links alignment issue fixed
+ * Dropdown submenu issue fixed
+ * Page Builder UI enhancements
+ * Dummy content importer updated
+ * Unyson importer plugin included
+ * SSL compatible updated
+
+2016.08.17 - version 1.6
+ * WordPress 4.6 Compatible
+ * Visual Composer 4.12 Compatible
+ * Minor jQuery fix & Tribe events widget area class updated
+ * Some design tweaks fixed
+
+2016.08.06 - version 1.5
+ * BuddyPress cover image issue updated
+ * S2 Member profile page css fixes
+ * Importing delay fixed with Optimised dummy data
+
+2016.06.30 - version 1.4
+ * Latest TGM plugin updated
+ * Latest Responsive Styled Google Maps plugin updated for Google Maps API key request.
+ * Updated latest version of all third party plugins
+ * Upcoming events shortcode category option updated
+ * Little design tweaks fixed
+
+2016.06.16 - version 1.3
+ * Pagebuilder sample layouts update
+
+2016.04.16 - version 1.2
+ * WordPress 4.5 Compatible
+ * Updated latest version of all third party plugins
+ * Pagebuilder small issue fixed
+
+2016.03.04 - version 1.1
+ * WordPress 4.4.2 Compatible
+ * Updated latest version of all third party plugins
+ * BPanel appearance design tweaks updated
+ * Pagebuilder small issue fixed
+ * Dummy content xml file updated
+
+2016.02.25 - version 1.0
+ * First release!

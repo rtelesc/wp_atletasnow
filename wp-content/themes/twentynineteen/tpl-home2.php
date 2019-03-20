@@ -1102,7 +1102,14 @@
 
     </style>
       
-    
+
+
+    <script>
+
+        for(var key in object){
+            console.log(key + ' - ' + object[key])
+        }
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

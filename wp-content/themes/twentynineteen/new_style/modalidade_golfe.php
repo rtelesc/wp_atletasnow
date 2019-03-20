@@ -686,9 +686,9 @@
            <h1>Estatísticas de Golfe no Brasil</h1>
 
 
-          <div class="row m-5">
+          <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -722,7 +722,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -755,7 +755,7 @@
             </div>
 
 
-             <div class="col-md-4">
+             <div class="col-md-4 mt-4">
              
               <div  style="
                 height: 15em;
@@ -815,19 +815,19 @@
         <div class="col-md-12 text-center mt-5">
           <h1>As melhores oportunidades para os melhores atletas.</h1>
 
-          <div class="row m-5">
+          <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
               <img src="/wp-content/themes/whistle/new_style/img/estatisticas.png">
               <h4>Estatísticas oficiais</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
               <img src="/wp-content/themes/whistle/new_style/img/visibilidade.png">
               <h4>Visibilidade</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
               <img src="/wp-content/themes/whistle/new_style/img/patrocinio.png">
               <h4>Oportunidades
 de patrocínio</h4>
@@ -835,22 +835,22 @@ de patrocínio</h4>
 
           </div>
 
-          <div class="row m-5">
+          <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
               <img src="/wp-content/themes/whistle/new_style/img/acesso.png">
               <h4>Acesso a profissionais
 do esporte</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
 
               <img src="/wp-content/themes/whistle/new_style/img/online.png">
               <h4>Tudo online e fácil
 de compartilhar</h4>
             </div> 
 
-            <div class="col-md-4">
+            <div class="col-md-4 mt-4">
               <img src="/wp-content/themes/whistle/new_style/img/conteudos.png">
               <h4>Conteúdos e
 descontos esclusivos</h4>
@@ -1031,8 +1031,6 @@ descontos esclusivos</h4>
     <!-- Copyright -->
 
 
-
-
   </footer>
   <!-- Footer -->
 
@@ -1043,8 +1041,8 @@ descontos esclusivos</h4>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/jquery.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="/wp-content/themes/whistle/new_style/assets/js/bootstrap.min.js"></script>
   </body>
 </html>
